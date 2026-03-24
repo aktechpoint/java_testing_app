@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: java-container
-          image: javatest:latest
+          image: abhi/javatest
           imagePullPolicy: Always   # 🔥 FIX: Must be capital "Always"
           ports:
             - containerPort: 8080
