@@ -19,7 +19,7 @@ spec:
       containers:
         - name: java-container
           image: abhi/javatest
-          imagePullPolicy: Never   # 🔥 FIX: Must be capital "Always"
+          imagePullPolicy: Always   # 🔥 FIX: Must be capital "Always"
           ports:
             - containerPort: 8080
 
