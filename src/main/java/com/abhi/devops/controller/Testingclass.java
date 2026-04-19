@@ -10,5 +10,9 @@ public class Testingclass {
 	public String devTesting() {
 		return "hi we are learning java deployment process with java and ubuntu on aws !";
 	}
+	@GetMapping("/health")
+    public ResponseEntity<String> healthCheck() {
+        return ResponseEntity.ok("helat is working");
+    }
 
 }
